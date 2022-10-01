@@ -1,0 +1,18 @@
+* A simple lisp template that can be used with Roswell
+
+Roswell's templates may not be stable but here is a quick one for you to try
+
+#+begin_src bash
+  git clone https://github.com/Gavinok/roswell-template
+
+  cd roswell-template
+
+  ros template import .
+#+end_src
+
+
+Then in a directory you want to start your project in
+
+#+begin_src bash
+  ros init sample-template project_name
+#+end_src
