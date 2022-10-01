@@ -1,0 +1,2 @@
+(defpackage {{name}}
+  (:use :cl))
