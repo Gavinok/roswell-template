@@ -1,7 +1,8 @@
 (in-package :{{name}})
 
 (defun main ()
-  ;; Do something
+  "Entry point for executable."
+  (write-line "Hello World")
   )
 
 ;; blah blah blah.
