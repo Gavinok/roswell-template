@@ -17,7 +17,7 @@ fast: ## For faster compilation and startup at the cost of binary size
 	$(MAKE) args=--disable-compression
 
 clean:
-	$(RM) roswell/lisp
+	$(RM) $(project)
 
 qlot: deps
 	qlot exec make

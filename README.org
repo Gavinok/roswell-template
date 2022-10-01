@@ -16,3 +16,18 @@ Then in a directory you want to start your project in
 #+begin_src bash
   ros init sample-template project_name
 #+end_src
+
+* Running Your Project
+While this uses roswell for the runtime the actual executable is
+produced using asdf. For this reason I added a ~Makefile~ to make
+building a one liner for you.
+
+#+begin_src bash
+  make
+#+end_src
+
+If you wanna use ~qlot~ to manage your dependencies just run
+
+#+begin_src bash
+  make qlot
+#+end_src
